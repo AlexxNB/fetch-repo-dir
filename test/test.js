@@ -4,8 +4,8 @@ const path = require('path');
 
 let PASSED = true;
 
-const testFailed = (message) => {
-    console.log('Test FAILED!:',message);
+const testFailed = (message,err) => {
+    console.log('Test FAILED!:',message,err);
     PASSED=false;
 }
 
@@ -27,7 +27,7 @@ const result = () => {
 
 console.log('Test started...')
 gitFolder([
-    {src:'alexxnb/svelte-docs/templates/default', dir:'test/tesdest'}
+    {src:'alexxnb/svelte-docs/template', dir:'test/tesdest'}
 ])
 .then(r => {
     testPass('No errors during function work');
