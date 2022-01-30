@@ -34,9 +34,9 @@
   },
   "homepage": "https://github.com/AlexxNB/fetch-repo-dir#readme",
   "dependencies": {
-    "fs-extra": "^9.0.0",
-    "tar": "^6.0.1",
-    "tmp": "^0.1.0"
+    "fs-extra": "^10.0.0",
+    "tar": "^6.1.11",
+    "tmp": "^0.2.1"
   },
   "devDependencies": {
     "rollup": "^2.1.0",
